@@ -1297,7 +1297,7 @@ async function sendTelegram(msg) {
 
 async function testTelegram() {
   if(!tgToken || !tgChatId) {
-    toast('Entre ton Token et Chat ID d'abord', 'warn');
+    toast("Entre ton Token et Chat ID d'abord", 'warn');
     return;
   }
   const p = livePrice || prices[prices.length-1] || 62000;
